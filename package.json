@@ -1,0 +1,22 @@
+{
+  "name": "curso-udemy-playwright-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-cases": "npx playwright test",
+    "recorder": "npx playwright codegen"
+  },
+  "keywords": [],
+  "author": "sebastian cordoba",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "allure-commandline": "^2.24.0",
+    "allure-playwright": "^2.8.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-xlsx": "^0.23.0"
+  }
+}
