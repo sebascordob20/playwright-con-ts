@@ -16,7 +16,7 @@ this.pagina = page
 public async elegirTercerProducto(){
 await this.pagina.waitForSelector('.s-line-clamp-2', { state: 'attached' });    
 this.resultados = await this.pagina.locator('.s-line-clamp-2').all()
-this.tercerResultado = await this.resultados[0].locator('.a-link-normal')
+this.tercerResultado = await this.resultados[2].locator('.a-link-normal')
 await this.tercerResultado.click();
 }
     

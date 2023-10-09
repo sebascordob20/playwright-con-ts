@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test-cases": "npx playwright test",
+    "test-cases-allure": "npx playwright test --reporter=line,allure-playwright",
+    "generate-reporter-allure":  "allure generate my-allure-results",
+    "open-reporter-allure":  "allure open allure-report",
+    
     "recorder": "npx playwright codegen"
+
   },
   "keywords": [],
   "author": "sebastian cordoba",
